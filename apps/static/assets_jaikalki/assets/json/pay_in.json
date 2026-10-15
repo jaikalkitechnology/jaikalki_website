@@ -1,8 +1,8 @@
 {
   "about": {
-    "meta": "Jaikalki TSP Services - Gravity DigiPayment by Jaikalki Technology Pvt Ltd",
+    "meta": "Jaikalki TSP Services - GurutvaPay by Jaikalki Technology Pvt Ltd",
     "title": "Efficient MID Solutions through TSP Services for Pay-In and Pay-Out Needs",
-    "description1": "At Jaikalki Technology Pvt Ltd, our Gravity DigiPayment division specializes in offering Technology Service Provider (TSP) solutions to streamline the process of obtaining Merchant Identification Numbers (MIDs). We act as a bridge, connecting businesses with multiple banks and Payment Aggregator & Payment Gateway (PAPG) companies to ensure seamless onboarding and efficient payment processing solutions.",
+    "description1": "At Jaikalki Technology Pvt Ltd, our GurutvaPay division specializes in offering Technology Service Provider (TSP) solutions to streamline the process of obtaining Merchant Identification Numbers (MIDs). We act as a bridge, connecting businesses with multiple banks and Payment Aggregator & Payment Gateway (PAPG) companies to ensure seamless onboarding and efficient payment processing solutions.",
     "description2": "Our TSP services simplify the complexities of merchant onboarding by leveraging partnerships with top banks and PAPG companies. Whether you need a Pay-In or Pay-Out solution, we ensure that your business is equipped with the right tools to receive and disburse payments securely and efficiently.",
     "description3": "With a dedicated Relationship Officer assigned to your business, we guide you through every step of the MID acquisition process. From document submission to integration with payment systems, we provide end-to-end support, ensuring that your business is ready to handle transactions quickly and reliably.",
     "features": [
@@ -26,7 +26,7 @@
   },
   "features": {
     "title": "Why Choose Jaikalki Technology Pvt Ltd as Your TSP Partner?",
-    "subtitle": "Partner with Gravity DigiPayment to simplify MID acquisition and payment solutions for your business.",
+    "subtitle": "Partner with GurutvaPay to simplify MID acquisition and payment solutions for your business.",
     "leftColumn": [
       {
         "title": "Strong Bank & PAPG Partnerships",
