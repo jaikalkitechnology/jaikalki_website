@@ -75,6 +75,8 @@ def sitemap():
         {"loc": "https://jaikalki.com/services/GravityDigiPayment.html", "lastmod": "2024-01-30", "changefreq": "weekly", "priority": "0.9"},
         {"loc": "https://jaikalki.com/services/WebTech.html", "lastmod": "2024-01-30", "changefreq": "weekly", "priority": "0.9"},
         {"loc": "https://jaikalki.com/services/RankBoost.html", "lastmod": "2024-01-30", "changefreq": "weekly", "priority": "0.9"},
+        {"loc": "https://jaikalki.com/services/Nakshatralogy.html", "lastmod": "2026-10-17", "changefreq": "monthly", "priority": "0.8"},
+        {"loc": "https://jaikalki.com/services/Jaikalki-HRMS.html", "lastmod": "2026-10-17", "changefreq": "monthly", "priority": "0.8"},
         {"loc": "https://jaikalki.com/services/GravityDigiPayment/Pay-In-Solution.html", "lastmod": "2024-01-30", "changefreq": "monthly", "priority": "0.7"},
         {"loc": "https://jaikalki.com/services/GravityDigiPayment/Pay-Out-Solution.html", "lastmod": "2024-01-30", "changefreq": "monthly", "priority": "0.7"},
         {"loc": "https://jaikalki.com/services/GravityDigiPayment/Relation-Officer.html", "lastmod": "2024-01-30", "changefreq": "monthly", "priority": "0.7"},

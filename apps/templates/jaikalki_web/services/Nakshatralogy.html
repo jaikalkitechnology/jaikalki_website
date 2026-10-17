@@ -1,0 +1,269 @@
+{% extends "layouts/jaikalki_layout.html" %}
+{% block title %}
+
+<!-- Meta Tags -->
+<meta name="description" content="Nakshatralogy by Jaikalki Technology Pvt Ltd is a Vedic astrology platform: create your Kundli, read clear insights about every part of your life, ask our AI astrologer and talk to verified astrologers, all in one app.">
+<meta name="keywords" content="Nakshatralogy, Vedic astrology, Kundli, Jyotish, birth chart, AI astrologer, Kundli Milan, horoscope app, Jaikalki Technology Pvt Ltd">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph (OG) Meta Tags -->
+<meta property="og:site_name" content="Jaikalki Technology">
+<meta property="og:title" content="Nakshatralogy | Your Vedic Astrology, Decoded">
+<meta property="og:description" content="Create your Kundli, read clear insights, ask our AI astrologer and talk to verified astrologers, all in one app.">
+<meta property="og:image" content="https://jaikalki.com/static/assets_jaikalki/assets/img/logo/nakshatralogy.png">
+<meta property="og:url" content="https://jaikalki.com/services/Nakshatralogy.html">
+<meta property="og:type" content="website">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nakshatralogy | Your Vedic Astrology, Decoded">
+<meta name="twitter:description" content="Create your Kundli, read clear insights, ask our AI astrologer and talk to verified astrologers, all in one app.">
+<meta name="twitter:image" content="https://jaikalki.com/static/assets_jaikalki/assets/img/logo/nakshatralogy.png">
+
+<!-- Canonical Link -->
+<link rel="canonical" href="https://jaikalki.com/services/Nakshatralogy.html">
+<title>Nakshatralogy | Your Vedic Astrology, Decoded | Jaikalki Technology Pvt Ltd</title>
+{% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}
+<style>
+  .product-card {
+    background: var(--surface-color);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    padding: 28px;
+    height: 100%;
+  }
+  .product-card .card-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--accent-color), transparent 88%);
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .product-card h3 { font-size: 22px; font-weight: 700; margin-bottom: 10px; }
+  .product-card p:last-child { margin-bottom: 0; }
+  .product-card ul { padding-left: 0; list-style: none; margin-bottom: 0; }
+  .product-card ul li { position: relative; padding-left: 26px; margin-bottom: 10px; }
+  .product-card ul li::before {
+    content: "\F26A";
+    font-family: "bootstrap-icons";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: var(--accent-color);
+  }
+  .product-logo {
+    background: #0b0d2e;
+    border-radius: 16px;
+    padding: 32px;
+  }
+  .report-tags { display: flex; flex-wrap: wrap; gap: 10px; }
+  .report-tags span {
+    background: color-mix(in srgb, var(--accent-color), transparent 90%);
+    color: var(--heading-color);
+    border-radius: 50px;
+    padding: 6px 16px;
+    font-size: 15px;
+  }
+</style>
+{% endblock stylesheets %}
+
+{% block content %}
+<main class="main">
+
+  <!-- Page Title -->
+  <div class="page-title light-background">
+    <div class="container">
+      <h1>Nakshatralogy</h1>
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li class="current">Nakshatralogy</li>
+        </ol>
+      </nav>
+    </div>
+  </div><!-- End Page Title -->
+
+  <!-- Intro Section -->
+  <section id="about" class="about section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4 align-items-center justify-content-between">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <span class="about-meta">NAKSHATRALOGY</span>
+          <h2 class="about-title">Your Vedic Astrology, Decoded</h2>
+          <p class="about-description">Nakshatralogy is a Vedic astrology platform that helps you understand your life through your birth chart. You can create your Kundli, read clear insights about every part of your life, ask questions to our AI astrologer, and talk to verified astrologers, all in one app.</p>
+          <p class="about-description">We built Nakshatralogy on one simple idea: the ancient wisdom of Jyotish should be accurate, easy to understand and open to everyone.</p>
+          <a href="https://nakshatralogy.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill px-4 mt-2">Visit Nakshatralogy</a>
+        </div>
+        <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="300">
+          <div class="product-logo">
+            <img src="{{ config.JAIKALKI_ROOT}}/assets/img/logo/nakshatralogy.png" alt="Nakshatralogy - Vedic, Cosmic, Wisdom" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Intro Section -->
+
+  <!-- Who We Are / Mission / Vision -->
+  <section id="who-we-are" class="section light-background">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-people"></i></div>
+            <h3>Who We Are</h3>
+            <p>Nakshatralogy is a product of Jaikalki Technology Private Limited, based in Mira Road, Thane, Maharashtra, India. Our team brings together astrologers and software engineers. We pair the classical Vedic texts with modern technology to give you guidance you can trust.</p>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-flag"></i></div>
+            <h3>Our Mission</h3>
+            <p>To make authentic Vedic astrology simple, personal and reliable for every person, in their own language.</p>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-stars"></i></div>
+            <h3>Our Vision</h3>
+            <p>To be the most trusted home for Vedic astrology, where tradition and technology work together to bring clarity, confidence and peace of mind to people around the world.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Who We Are -->
+
+  <!-- What Makes Us Different -->
+  <section id="different" class="section">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>What Makes Us Different</h2>
+    </div>
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-calculator"></i></div>
+            <h3>Accurate calculations</h3>
+            <p>Every Kundli is calculated with Swiss Ephemeris astronomical data and the principles of the classical Vedic texts (BPHS).</p>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-grid-3x3"></i></div>
+            <h3>Complete birth chart</h3>
+            <ul>
+              <li>All 20 classical divisional charts, from D1 to D60</li>
+              <li>Vimshottari and Moola Dasha, down to 6 levels deep</li>
+              <li>51 yogas, each with a strength score</li>
+              <li>33 doshas, each with a probability score</li>
+              <li>Shadbala, Ashtakavarga, Bhava strength and planetary aspects</li>
+              <li>Daily Gochar (transit) scores</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-journal-text"></i></div>
+            <h3>16 life insight reports</h3>
+            <div class="report-tags my-3">
+              <span>Career</span><span>Business</span><span>Wealth</span><span>Debt</span>
+              <span>Marriage</span><span>Love</span><span>Relationship</span><span>Kundli Milan</span>
+              <span>Health</span><span>Mental &amp; Stress</span><span>Education</span><span>Property</span>
+              <span>Legal</span><span>Character</span><span>Life Path</span><span>Past Life &amp; Karma</span>
+            </div>
+            <p>Each report is based on your own chart and shows a confidence score.</p>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-robot"></i></div>
+            <h3>AI Astrologer</h3>
+            <p>Ask questions about your Kundli in plain language, any time, and get answers based on your own chart. It answers astrology questions only.</p>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-patch-check"></i></div>
+            <h3>Verified astrologers</h3>
+            <p>Connect with experienced astrologers over chat, call or video. Every astrologer completes identity (KYC) verification before joining.</p>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-translate"></i></div>
+            <h3>Your language</h3>
+            <p>Nakshatralogy is available in Hindi, English and many other Indian and international languages.</p>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-zoom-in"></i></div>
+            <h3>Simple first, detailed on demand</h3>
+            <p>Read your chart in plain words, then open any insight to see the full Vedic detail behind it.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /What Makes Us Different -->
+
+  <!-- Our Promise / For Astrologers -->
+  <section id="promise" class="section light-background">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-shield-check"></i></div>
+            <h3>Our Promise to You</h3>
+            <ul class="mt-3">
+              <li><strong>Privacy:</strong> your birth details and conversations stay private and secure.</li>
+              <li><strong>Honesty:</strong> we show how confident each prediction is and never use fear to sell.</li>
+              <li><strong>Transparency:</strong> clear prices, a secure wallet and trusted payment partners.</li>
+              <li><strong>Respect:</strong> we honour the tradition of Jyotish in everything we build.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-person-video3"></i></div>
+            <h3>For Astrologers</h3>
+            <p>Are you a practising astrologer? Join the Nakshatralogy Astrologer App to reach clients across India and the world. Set your own per-minute rates, get full Kundli tools for every consultation and receive your earnings safely.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Our Promise -->
+
+  <!-- Contact -->
+  <section id="nakshatralogy-contact" class="section">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Contact Us</h2>
+    </div>
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="product-card text-center">
+            <h3>Jaikalki Technology Private Limited</h3>
+            <p class="mb-1">Mira Road, Thane, Maharashtra, India</p>
+            <p class="mb-1"><strong>Email:</strong> <a href="mailto:support@jaikalki.com">support@jaikalki.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+919136914963">+91 91369 14963</a></p>
+            <p class="mt-4 mb-3">Download Nakshatralogy from the Google Play Store and start your journey today.</p>
+            <a href="https://nakshatralogy.com/" target="_blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill px-4">Visit Nakshatralogy</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Contact -->
+
+</main>
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

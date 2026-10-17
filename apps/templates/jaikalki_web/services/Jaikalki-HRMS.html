@@ -1,0 +1,365 @@
+{% extends "layouts/jaikalki_layout.html" %}
+{% block title %}
+
+<!-- Meta Tags -->
+<meta name="description" content="Jaikalki HRMS by Jaikalki Technology Pvt Ltd: run your team with attendance, daily plans, tasks with automatic escalation, targets, incentives, team alerts and HR letters, in the admin panel and the mobile app.">
+<meta name="keywords" content="Jaikalki HRMS, HRMS software, team management, task management, sales targets, employee incentives, attendance tracking, HR letters, Jaikalki Technology Pvt Ltd">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph (OG) Meta Tags -->
+<meta property="og:site_name" content="Jaikalki Technology">
+<meta property="og:title" content="Jaikalki HRMS | Team, Tasks, Targets & Incentives">
+<meta property="og:description" content="Everything a manager needs to run a team, in the admin panel and in the mobile app.">
+<meta property="og:url" content="https://jaikalki.com/services/Jaikalki-HRMS.html">
+<meta property="og:type" content="website">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Jaikalki HRMS | Team, Tasks, Targets & Incentives">
+<meta name="twitter:description" content="Everything a manager needs to run a team, in the admin panel and in the mobile app.">
+
+<!-- Canonical Link -->
+<link rel="canonical" href="https://jaikalki.com/services/Jaikalki-HRMS.html">
+<title>Jaikalki HRMS | Team, Tasks, Targets & Incentives | Jaikalki Technology Pvt Ltd</title>
+{% endblock %}
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}
+<style>
+  .product-card {
+    background: var(--surface-color);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+    padding: 28px;
+    height: 100%;
+  }
+  .product-card .card-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    background: color-mix(in srgb, var(--accent-color), transparent 88%);
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .product-card h3 { font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  .product-card h4 { font-size: 17px; font-weight: 700; margin: 18px 0 8px; }
+  .product-card .lead-text { color: color-mix(in srgb, var(--default-color), transparent 30%); margin-bottom: 14px; }
+  .product-card ul { padding-left: 0; list-style: none; margin-bottom: 0; }
+  .product-card ul li { position: relative; padding-left: 26px; margin-bottom: 10px; }
+  .product-card ul li::before {
+    content: "\F26A";
+    font-family: "bootstrap-icons";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    color: var(--accent-color);
+  }
+  .product-card ul ul { margin-top: 8px; }
+  .product-card ul ul li::before { content: "\F287"; font-size: 8px; top: 7px; }
+  .product-steps .step-no {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    color: var(--contrast-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+  .product-table { border-radius: 12px; overflow: hidden; }
+  .product-table th { background: var(--accent-color); color: var(--contrast-color); }
+</style>
+{% endblock stylesheets %}
+
+{% block content %}
+<main class="main">
+
+  <!-- Page Title -->
+  <div class="page-title light-background">
+    <div class="container">
+      <h1>Jaikalki HRMS</h1>
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li class="current">Jaikalki HRMS</li>
+        </ol>
+      </nav>
+    </div>
+  </div><!-- End Page Title -->
+
+  <!-- Intro Section -->
+  <section id="about" class="about section">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4 align-items-center justify-content-between">
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+          <span class="about-meta">JAIKALKI HRMS</span>
+          <h2 class="about-title">Team, Tasks, Targets &amp; Incentives</h2>
+          <p class="about-description">Everything a manager needs to run a team, in the admin panel and in the mobile app.</p>
+          <div class="row feature-list-wrapper">
+            <div class="col-md-6">
+              <ul class="feature-list">
+                <li><i class="bi bi-check-circle-fill"></i> My Team</li>
+                <li><i class="bi bi-check-circle-fill"></i> Tasks</li>
+                <li><i class="bi bi-check-circle-fill"></i> Targets</li>
+                <li><i class="bi bi-check-circle-fill"></i> Incentives</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="feature-list">
+                <li><i class="bi bi-check-circle-fill"></i> Team Alerts</li>
+                <li><i class="bi bi-check-circle-fill"></i> Documents &amp; Letters</li>
+                <li><i class="bi bi-check-circle-fill"></i> Admin panel and mobile app</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="product-card text-center">
+            <div class="card-icon mx-auto"><i class="bi bi-people"></i></div>
+            <h3>Available everywhere</h3>
+            <ul class="text-start mt-3">
+              <li><strong>Admin panel</strong> for HR, Admin and managers.</li>
+              <li><strong>Mobile app and mobile web app</strong>, installable on any phone.</li>
+              <li><strong>Notifications:</strong> tapping one opens the right screen: a task, a team, a document or an incentive.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Intro Section -->
+
+  <!-- My Team -->
+  <section id="my-team" class="section light-background">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>My Team</h2>
+      <p>See your whole team at a glance, level by level.</p>
+    </div>
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-diagram-3"></i></div>
+            <ul>
+              <li><strong>Today’s picture:</strong> who is present, late, working from home, on leave, absent or not in yet.</li>
+              <li><strong>Daily plans:</strong> who has sent a morning plan and an end-of-day report.</li>
+              <li><strong>Tasks:</strong> open, overdue and done this week.</li>
+              <li><strong>Targets:</strong> progress for each person and for the whole team.</li>
+              <li><strong>Team by team:</strong> a team lead’s row shows their team’s numbers, for example “12 people · 91% present · 78% of target”. Tap it to open that team and go a level down.</li>
+              <li><strong>Needs attention:</strong> one tap shows who is absent, late, has no plan or has overdue tasks.</li>
+              <li><strong>Person page:</strong> who they report to, today’s status, target, monthly attendance calendar, recent daily plans and leave, and call or email.</li>
+              <li><strong>Org chart:</strong> the whole reporting tree with today’s attendance. Search by name, role or department.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-5" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-eye"></i></div>
+            <h3>Who sees what</h3>
+            <ul class="mt-3">
+              <li><strong>Managers</strong> see everyone below them, at every level.</li>
+              <li><strong>Department heads</strong> see their whole department.</li>
+              <li><strong>Directors, HR and Admin</strong> see the whole company.</li>
+              <li><strong>Salary, bank, ID and family details</strong> stay with the direct manager and HR only.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /My Team -->
+
+  <!-- Tasks -->
+  <section id="tasks" class="section">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Tasks</h2>
+      <p>Give work to your team and follow it to the finish.</p>
+    </div>
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-list-check"></i></div>
+            <ul>
+              <li><strong>Give a task:</strong> pick the person, set a due date and priority (Low, Medium, High, Urgent), and add details.</li>
+              <li><strong>Instant notification:</strong> the person is notified in the app straight away.</li>
+              <li><strong>Track progress:</strong> the person marks it In progress or Done, with a note on what was done.</li>
+              <li><strong>Comments:</strong> discuss the task inside it. Both sides are notified.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-arrow-up-circle"></i></div>
+            <ul>
+              <li><strong>Automatic escalation:</strong>
+                <ul>
+                  <li>The day after the due date, the person and whoever gave the task are reminded.</li>
+                  <li>If it is still not done, it goes to the next manager up the chain every few days.</li>
+                </ul>
+              </li>
+              <li><strong>Three views:</strong> tasks for me, tasks I’ve given, and my team’s tasks.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Tasks -->
+
+  <!-- Targets -->
+  <section id="targets" class="section light-background">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Targets</h2>
+      <p>Set goals for more than just sales.</p>
+    </div>
+    <div class="container">
+      <div class="row gy-4 align-items-start">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="table-responsive product-table shadow-sm">
+            <table class="table table-bordered bg-white mb-0">
+              <thead>
+                <tr><th>Target type</th><th>What counts</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>Sales (₹)</td><td>Value of orders placed</td></tr>
+                <tr><td>Leads won</td><td>Approved won leads</td></tr>
+                <tr><td>New leads</td><td>Leads added</td></tr>
+                <tr><td>Field visits</td><td>Visits completed</td></tr>
+                <tr><td>Verifications</td><td>Verifications approved</td></tr>
+                <tr><td>Tasks done</td><td>Tasks completed</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-bullseye"></i></div>
+            <ul>
+              <li><strong>Progress updates on its own:</strong> whenever the work is logged, plus a nightly refresh. No refresh button needed.</li>
+              <li><strong>Several targets per person:</strong> for example, a sales target and a field-visit target.</li>
+              <li><strong>Team rollup:</strong> managers see their team’s combined progress and each person’s.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Targets -->
+
+  <!-- Incentives -->
+  <section id="incentives" class="section">
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Incentives</h2>
+      <p>Reward performance fairly, with clear rules and no spreadsheets.</p>
+    </div>
+    <div class="container">
+      <div class="row gy-4 product-steps">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <span class="step-no">1</span>
+            <h3>HR sets up a scheme</h3>
+            <ul class="mt-3">
+              <li><strong>What it pays on:</strong> any target type, monthly or quarterly.</li>
+              <li><strong>Pay slabs:</strong> for example, 80% → ₹2,000 · 100% → ₹5,000 · 120% → ₹8,000.</li>
+              <li><strong>Payout type:</strong> a fixed amount, or a percentage of sales, with an optional cap.</li>
+              <li><strong>Who qualifies:</strong>
+                <ul>
+                  <li>minimum attendance %</li>
+                  <li>confirmed staff only</li>
+                  <li>not serving notice</li>
+                  <li>no warning letter in the last few months</li>
+                  <li>minimum time with the company</li>
+                  <li>selected departments, categories or designations</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row gy-4">
+            <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+              <div class="product-card">
+                <span class="step-no">2</span>
+                <h3>The system calculates it</h3>
+                <p class="mt-3 mb-0">At the start of each month, last month is worked out automatically. You see each person’s progress, the slab reached, their attendance, and whether they qualify. If they don’t, the reason is shown.</p>
+              </div>
+            </div>
+            <div class="col-12" data-aos="fade-up" data-aos-delay="300">
+              <div class="product-card">
+                <span class="step-no">3</span>
+                <h3>Managers review</h3>
+                <p class="mt-3 mb-0">Each direct manager approves, changes (with a reason) or rejects the amount for their people, from the app or the admin panel.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <span class="step-no">4</span>
+            <h3>HR approves, and it’s paid with salary</h3>
+            <ul class="mt-3">
+              <li>The incentive appears as its own line on the payslip and is included in gross and net pay.</li>
+              <li>Employees are told the amount and which month’s salary it comes with.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-person-check"></i></div>
+            <h3>What employees see</h3>
+            <ul class="mt-3">
+              <li>What they are earning right now.</li>
+              <li>The next slab, and how much more is needed to reach it.</li>
+              <li>Anything that could stop them qualifying, such as low attendance.</li>
+              <li>Their incentive history: under review, approved or paid.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Incentives -->
+
+  <!-- Team Alerts & Documents -->
+  <section id="alerts" class="section light-background">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-bell"></i></div>
+            <h3>Team Alerts</h3>
+            <p class="lead-text">Automatic nudges that keep everyone on track. HR can turn each one on or off and set its time.</p>
+            <ul>
+              <li><strong>Morning digest for managers:</strong> who is absent, late or not in yet, who hasn’t sent a plan, and overdue tasks.</li>
+              <li><strong>Morning-plan reminder:</strong> a gentle nudge to people who usually send a plan.</li>
+              <li><strong>Overdue-task escalation:</strong> late tasks move up the reporting chain.</li>
+              <li><strong>Weekly summary:</strong> attendance, daily plans, tasks and target progress for every team and sub-team, plus who is behind target.</li>
+              <li><strong>Behind-target nudge:</strong> people falling behind get an early heads-up.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card">
+            <div class="card-icon"><i class="bi bi-file-earmark-text"></i></div>
+            <h3>Documents &amp; Letters</h3>
+            <ul class="mt-3">
+              <li><strong>Letters:</strong> offer, appointment, confirmation and other letters, created on the company letterhead or uploaded as signed copies.</li>
+              <li><strong>Automatic letter numbers</strong>, for example JKT/HR/AP/001/2026.</li>
+              <li><strong>Editable letterhead:</strong> company name, registration numbers, contact details, office addresses, footer and logo.</li>
+              <li><strong>Company policies:</strong> published to everyone. Employees tap Read &amp; accept, and HR sees who has accepted and can send reminders.</li>
+              <li><strong>Certificates:</strong> appreciation and achievement certificates, created or uploaded. Employees download them from the app.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- /Team Alerts & Documents -->
+
+</main>
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
